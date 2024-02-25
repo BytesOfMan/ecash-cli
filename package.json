@@ -1,0 +1,21 @@
+{
+  "name": "chronik-client-cli",
+  "version": "1.0.0",
+  "description": "Access chronik-client through bash cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "chronik",
+    "chronik-client",
+    "ecash",
+    "xec"
+  ],
+  "author": "Bitcoin ABC",
+  "license": "ISC",
+  "dependencies": {
+    "chronik-client": "file:../abc/bitcoin-abc/modules/chronik-client",
+    "ecashaddrjs": "^1.5.6"
+  }
+}
